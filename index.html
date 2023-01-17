@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="back">
+        <h1 class="text">Calculator</h1>
+
+        <div class="calBacK">
+
+            <input placeholder="value1" type="number" id="n1">
+
+            <select id="oper">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="X">x</option>
+                <option value="/">/</option>
+            </select>
+
+            <input placeholder="value2" type="number" id="n3">
+            <button id="btn" onclick="calc();">
+                =
+            </button>
+            <input type="text" id="result" placeholder="Ans">
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+<script>
+
+    function calc() {
+        var n1 = document.getElementById('n1').value;
+        var n3 = document.getElementById('n3').value;
+
+        var oper = document.getElementById('oper').value;
+
+        switch (oper) {
+            case "+":
+                document.getElementById('result').value = n1 + n3;
+                break;
+
+            case "-":
+                document.getElementById('result').value = n1 - n3;
+                break;
+
+            case "X":
+                document.getElementById('result').value = n1 * n3;
+                break;
+
+            case "/":
+                document.getElementById('result').value = n1 / n3;
+                break;
+
+
+        }
+
+
+
+    }
+</script>
+
+
+
+
+
+</html>

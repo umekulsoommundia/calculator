@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #1c1d49;
+}
+.text{
+    text-align: center;
+    margin-top:  110px;
+    color: #f00178;
+}
+.calBacK{
+    margin-top: 20px;
+height: 240px;
+width: 320px;
+background-color: #5f27cd;
+margin-left: 530px;
+}
+#n1{
+    margin: 12px;
+    margin-right: 0;
+    height: 60px;
+    width: 90px;
+    color: #f00178;
+    background-color: #220e96;
+    text-align: center;
+}
+#oper{
+   
+    height: 60px;
+    width: 90px;
+    color: #f00178;
+    background-color: #220e96;
+    text-align: center;
+}
+#n3{
+    margin: px;
+    margin-right: 0;
+    height: 60px;
+    width: 90px;
+    color: #f00178;
+    background-color: #220e96;
+    text-align: center;
+    
+}
+
+#btn{
+    background-color: #f00178;
+    color: aliceblue;
+    height: 60px;
+    width: 290px;
+    font-size: 20px;
+    margin-left: 15px;
+  
+}
+#result{
+    margin: 10px;
+    margin: px;
+    margin-left: 15px;
+    margin-right: 0;
+    height: 60px;
+    width: 290px;
+    color: #fcfafb;
+    background-color: #220e96;
+    text-align: center;
+}
